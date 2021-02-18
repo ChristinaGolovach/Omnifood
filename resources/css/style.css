@@ -468,3 +468,87 @@ input[type="checkbox"] {
 *:focus {
     outline: none;
 }
+
+
+/*-----------------------------*/
+/*CONTACT US */
+/*-----------------------------*/
+
+footer {
+    background-color: #333;
+    padding: 10px 30px 30px 30px;
+}
+
+.footer-navigation {
+    float: left;
+}
+
+.social-links {
+    float: right;
+}
+
+.footer-navigation li,
+.social-links li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-navigation li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-navigation li a:link,
+.footer-navigation li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    border-bottom: none;
+    color: #888;
+    vertical-align: middle;
+}
+
+.footer-navigation li a:hover,
+.footer-navigation li a:active,
+.social-links li a:hover,
+.social-links li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size:130%;
+}
+
+ion-icon[name="logo-facebook"],
+ion-icon[name="logo-twitter"],
+ion-icon[name="logo-google"],
+ion-icon[name="logo-instagram"] {
+    transition: color 0.2s;
+}
+
+ion-icon[name="logo-facebook"]:hover,
+ion-icon[name="logo-facebook"]:active{
+    color:#3b5998;
+}
+
+ion-icon[name="logo-twitter"]:hover,
+ion-icon[name="logo-twitter"]:active{
+    color:#1da1f2;
+}
+
+ion-icon[name="logo-google"]:hover,
+ion-icon[name="logo-google"]:active{
+    color:#ea4335;
+}
+
+ion-icon[name="logo-instagram"]:hover,
+ion-icon[name="logo-instagram"]:active{
+    color:#c32aa3;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 25px;
+}
