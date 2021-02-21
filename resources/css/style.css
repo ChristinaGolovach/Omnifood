@@ -210,6 +210,15 @@ header {
     margin-top: 20px;
 }
 
+.logo-black {
+    display: none;
+    height: 58px;
+    width: auto;
+    float: left;
+    margin: 5px;
+}
+
+/*-----header navigation------*/
 .main-navigation {
     float: right;
     list-style: none;
@@ -236,6 +245,52 @@ header {
 .main-navigation li a:active,
 .main-navigation li a:hover {
     border-bottom: 2px solid #e67e22;
+}
+
+/*----- header sticky navigation ------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #e0e0e0;
+    z-index: 1;
+}
+
+.sticky .main-navigation li a:link,
+.sticky .main-navigation li a:visited {
+    padding: 15px 0;
+    color: #555;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
+ .sticky .main-navigation {
+    margin-top: 20px;
+}
+
+/*------Mobile navigation------*/
+.mobile-navigation {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-navigation ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
+mobile-navigation.hidden {
+    display: none;
 }
 
 /*-----------------------------*/

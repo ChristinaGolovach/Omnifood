@@ -99,9 +99,40 @@
         margin: 0 0 4% 0;
     }
 
+/*
     .main-navigation {
         display: none;
     }
+*/
+
+    .mobile-navigation {
+        display: inline-block;
+    }
+
+    .main-navigation {
+        float:left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .main-navigation li {
+        display: block;
+    }
+
+    .main-navigation a:link,
+    .main-navigation a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-navigation { margin-top: 10px; }
+
+    .sticky .main-navigation li a:link,
+    .sticky .main-navigation li a:visited { padding: 10px 0; }
+    .sticky .mobile-navigation { margin-top: 10px; }
+    .sticky .mobile-navigation ion-icon { color: #555; }
 
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
